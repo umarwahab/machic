@@ -1,0 +1,116 @@
+.product-category .category-module {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-category .category-module .category-box {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfdede;
+    padding: 25px 0px;
+    margin: 0;
+
+}
+.product-category .category-img {
+    width: 50%;
+}
+.product-category .category-img img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.product-category {
+    box-sizing: border-box;
+    margin: 30px auto;
+    display: block;
+    padding: 0;
+}
+.product-category .category-details {
+    width: 50%;
+    display: block;
+}
+.product-category .category-details .category-title {
+    display: flex;
+    
+}
+.product-category .category-title a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #021523;
+}
+.product-category .category-box .category-details ul {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+}
+.product-category .category-details li {
+    line-height: 1.6;
+}
+
+.product-category .category-box .category-details ul li a {
+    font-size: 0.8125rem;
+    text-decoration: none;
+    color: #818ea0;
+}
+.product-category .category-box .category-details a{
+    font-size: 15px;
+    padding: 0;
+    margin-top: 0.75rem;
+    height: auto;
+    color: #0070dc;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+}
+.product-category .category-details i.fa.fa-long-arrow-right {
+    margin: 0 5px;
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+    /* product-category */
+    .category-module {
+        width: 100%;
+        display: block;
+    }
+    .product-category {
+        box-sizing: border-box;
+        margin: 30px 0;
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+    .product-category .category-module .category-box {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        border: 1px solid #dfdede;
+        padding: 25px 0px;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+}
+  
+@media screen and (max-width:550px) {
+    .product-category .category-module {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .product-category .category-module .category-box {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        border: 1px solid #dfdede;
+        padding: 25px 0px;
+        margin: 10px auto;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,19 @@
+.bread-crumb {
+    box-sizing: border-box;
+    display: block;
+}
+
+.bread-crumb .bc-links {
+    display: block;
+    margin: 10px;
+}
+
+.bread-crumb .bc-links a {
+    text-decoration: none;
+    color: #a5a3a3;
+    font-size: 12px;
+}
+
+.bread-crumb .bc-links a:active {
+    color: #000;
+}

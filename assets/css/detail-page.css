@@ -1,0 +1,494 @@
+.product-showcase {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.product-showcase .row {
+    width: 100%;
+    display: flex;
+}
+
+.product-showcase .row .col-1 {
+    width: 50%;
+}
+
+.product-showcase .row .col-2 {
+    width: 50%;
+}
+
+.product-showcase .row .col-1 .product-image {
+    display: block;
+    padding-left: 15px;
+    /* border: 1px solid #ccc; */
+}
+
+.product-showcase .product-image .image-box {
+    width: auto;
+}
+
+.product-showcase .product-image .image-box img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.product-showcase .row .col-2 .product-details {
+    /* border: 1px solid #ccc; */
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.product-showcase .row .col-2 .product-details .content {
+    width: 100%;
+    display: block;
+}
+
+.product-details .content .main-text {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.product-details .content .sub-text {
+    color: #818ea0;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.product-details .content .compliment-box {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.product-details .content .compliment-box .rating {
+    margin-right: 10px;
+}
+
+.product-details .content .compliment-box .rating span {
+    font-size: 14px;
+    color: #ffc21f;
+}
+
+.product-details .content .compliment-box button {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.product-details .content .stock {
+    width: 100%;
+}
+
+.product-details .content .stock-label {
+    padding: 8px 6px;
+    max-width: 20%;
+    text-align: center;
+    background: #f4faf6;
+    color: #00a046;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.product-details .content .price-box .main-price {
+    color: #ef262c;
+    font-size: 28px;
+}
+
+.product-details .content .price-box .discount-price {
+    color: #818ea0;
+    text-decoration: line-through;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.product-action-container {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 30px 0;
+}
+
+.proceed-box {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.add-product {
+    width: 25%;
+    padding: 0 6px 0 0;
+}
+
+.proceed-box .quantity {
+    width: 25%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-wishlist {
+    width: 30%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-compare {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* quantity increment */
+
+.proceed-box .quantity h1 {
+    text-align: center;
+}
+
+.proceed-box .quantity button {
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    touch-action: manipulation;
+    display: inline-block;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.proceed-box .colm-2 {
+    display: contents;
+}
+
+.proceed-box .quantity .qty {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 0;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.proceed-box .quantity .qty label {
+    flex: 1 0 100%;
+}
+
+.proceed-box .quantity .qty input {
+    width: 30px;
+    height: 26px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.proceed-box .quantity .qty button {
+    width: 20px;
+    height: 30px;
+    color: #000;
+    font-size: 20px;
+    background: #fff;
+    padding: 0;
+}
+
+.proceed-box .add-product button {
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    background: #00a046;
+    color: #fff;
+}
+
+.add-wishlist i.fa.fa-heart-o {
+    vertical-align: bottom;
+    margin: 0 5px;
+}
+
+.add-wishlist span {
+    font-size: 12px;
+    color: #818ea0;
+}
+
+.product-action-container .delivery-box {
+    margin: 10px 12px;
+    display: block;
+}
+
+.add-compare span {
+    font-size: 12px;
+    color: #818ea0;
+}
+
+.add-compare i.fa {
+    margin: 0 5px;
+}
+
+.product-action-container .delivery-box {
+    margin: 20px 25px;
+    display: flex;
+}
+
+.deliver-time {
+    margin: 0 10px;
+}
+
+.deliver-time::after {
+    content: "|";
+    margin: 0 6px;
+    color: #625f5f;
+    font-size: 15px;
+}
+
+.deliver-quote span {
+    font-size: 14px;
+}
+
+.warning-box {
+    color: #c28e00;
+    background-color: #fffcf2;
+    border: 1px solid #faeecf;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.warning-text {
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.warning-text strong {
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+.social-fields {
+    display: flex;
+    margin: 30px 0 40px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+.social-fields a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid#ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    text-align: center;
+    width: 32px;
+    line-height: 2;
+}
+
+.social-fields .facebook {
+    background: #3b5998;
+}
+
+.social-fields .twitter {
+    background: #1da1f2;
+}
+
+.social-fields .pinterest {
+    background: #e60023;
+}
+
+.social-fields .linkedin {
+    background: #0077b5;
+}
+
+.social-fields .whatsapp {
+    background: #25d366;
+}
+
+.social-fields a:hover {
+    opacity: 0.8;
+}
+
+
+/* end iof */
+
+.product-specification .main-text {
+    padding: 0 6px;
+}
+
+
+/* img viewer */
+
+.product-showcase .product-image .image-box .images img {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.images {
+    width: 20%;
+    display: flex;
+    margin-top: 10px;
+}
+
+@keyframes fadeIn {
+    to {
+        Opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in 1 forwards;
+}
+
+.image-box .main-img {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+
+/* end of image viewer */
+
+.product-properties {
+    display: block;
+    margin-top: 30px;
+}
+
+.product-properties ul {
+    margin: 0;
+    padding: 0;
+}
+
+.product-properties li {
+    line-height: 2;
+    font-size: 12px;
+}
+
+.user-review-box {
+    display: flex;
+    margin: 0 20px;
+}
+
+.user-review-box .col-1 {
+    width: 10%;
+}
+
+.user-review-box .col-1 .user-img {
+    width: 100%;
+}
+
+.user-review-box .col-1 .user-img img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 30px;
+}
+
+.user-review-box .col-2 {
+    width: auto;
+}
+
+.user-review-box .col-2 .user-rating .rating {
+    color: #ffc21f;
+    font-size: 12px;
+    margin-bottom: 5px
+}
+
+.user-rating {
+    display: block;
+    width: 100%;
+    margin: 9px 0;
+}
+
+.user-name {
+    display: block;
+    width: 100%;
+}
+
+.user-rating strong {
+    font-size: 14px;
+}
+
+.user-name .txt {
+    color: #71778e;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.user-context {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.user-context span {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.product-showcase .row .col-2 .product-details .content .price-box {
+    display: flex;
+    align-items: center;
+    flex-direction: unset;
+}
+
+.product-showcase .row .col-2 .product-details .content .price-box .col-2 button {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 34px;
+    background-color: #f2f3f5;
+    border-color: transparent;
+}
+
+.user-name strong {
+    font-size: 14px;
+}
+
+@media screen and (max-width:992px) {
+    .product-showcase .row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-showcase .row .col-1 {
+        width: 70%;
+        margin: 50px auto;
+    }
+    .product-showcase .row .col-2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .product-details .content .price-box .main-price {
+        color: #ef262c;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .product-showcase .row .col-1 {
+        width: 90%;
+        margin: 50px auto;
+    }
+    .product-details .content .main-text {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+}

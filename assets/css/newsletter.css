@@ -1,0 +1,126 @@
+.newsletter {
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Roboto';
+    margin: 40px 0 0 0;
+    background: #041e42;
+}
+
+.newsletter .entry-description strong {
+    color: #ffbd27;
+}
+
+.blue-bgg {
+    background-color: #041e42;
+}
+
+.newsletter .newsletter-module {
+    display: flex;
+    padding: 50px 0;
+    width: 100%;
+    margin: 0;
+}
+
+.newsletter .newsletter-content {
+    width: 50%;
+    padding: 0 0 0 20px;
+}
+
+.newsletter .newsletter-form {
+    width: 50%;
+    padding: 0 20px 0 0;
+}
+
+.newsletter .col-center {
+    max-width: 100%;
+    /* margin-left: auto; */
+    display: block;
+}
+
+.newsletter .col-center .site-search {
+    position: relative;
+    display: flex;
+}
+
+.newsletter .col-center .site-search .search-icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #8b8888;
+    font-size: 18px;
+}
+
+.newsletter .col-center .site-search input[type="text"] {
+    padding: 15px 20px;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    text-indent: 0;
+    border: 1px solid #ccc;
+    border-radius: 7px 0 0 7px;
+    outline: none;
+}
+
+.newsletter .col-center .site-search button {
+    background: #ffbd27;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    width: 20%;
+    border-radius: 0 10px 9px 0;
+    border: 0;
+}
+
+.newsletter .newsletter-content .entry-title {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.newsletter .newsletter-content .entry-description {
+    color: #818ea0;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+@media screen and (max-width:992px) {
+    .newsletter .newsletter-module {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter .newsletter-content {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .newsletter .newsletter-form {
+        width: 80%;
+        padding: 0 20px 0 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .newsletter-module {
+        display: flex;
+        padding: 50px 0;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter-content {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .newsletter-form {
+        width: 90%;
+        margin: auto;
+    }
+    .newsletter .col-center .site-search button {
+        width: 40%;
+    }
+}

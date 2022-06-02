@@ -1,0 +1,43 @@
+.brand-partner {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+}
+.brand-partner .brand-module{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.brand-partner .brands-box {
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+.brand-partner .brands-box img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    opacity: 0.2;
+}
+.brand-partner .brand-module .brands-box a {
+    text-decoration: none;
+}
+.brand-partner .brands-box img:hover {
+    opacity: unset;
+    transition: all 600ms;
+}
+
+@media screen and (max-width:767px) {
+    .brand-partner .brand-module {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .brand-partner .brands-box {
+        width: 20%;
+        display: block;
+        margin: 0 10px;
+    }
+}

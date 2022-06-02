@@ -1,0 +1,630 @@
+.checkout-content {
+    display: block;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.product-checkout-wrapper {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+
+.product-checkout-wrapper .col-1 {
+    width: 70%;
+}
+
+.product-checkout-wrapper .col-2 {
+    width: 30%;
+    padding: 20px 0;
+    border-radius: 5px;
+    border: 2px solid #041e42;
+    height: 50%;
+}
+
+.checkout-content .coupon-header {
+    width: 100%;
+    padding: 20px 0;
+    background: #efefef;
+    margin: 10px 0;
+    border-radius: 7px;
+}
+
+.checkout-content .coupon-header .content {
+    font-size: 14px;
+    padding: 0 16px;
+}
+
+.billing-info .user-inforamtion {
+    width: 100%;
+    display: block;
+}
+
+.user-inforamtion .user-name {
+    width: 100%;
+    display: flex;
+}
+
+.user-information .user-name .col-1 {
+    width: 50%;
+}
+
+.user-information .user-name .col-2 {
+    width: 50%;
+}
+
+.product-checkout-wrapper .col-1 .billing-info {
+    width: 95%;
+    display: block;
+    padding-left: 15px;
+}
+
+.product-checkout-wrapper .col-1 .billing-info .bill-header {
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+}
+
+.product-checkout-wrapper .col-1 .billing-info .bill-header span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.billing-info .user-inforamtion .user-name .colm-1 {
+    width: 50%;
+    display: block;
+}
+
+.user-inforamtion .user-name .colm-1 label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user-inforamtion .user-name .colm-1 input {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.billing-info .user-inforamtion .user-name .colm-2 {
+    width: 50%;
+    display: block;
+}
+
+.user-inforamtion .user-name .colm-2 label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user-inforamtion .user-name .colm-2 input {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.billing-info .user-inforamtion .company-name {
+    width: 100%;
+    display: block;
+}
+
+.billing-info .user-inforamtion .company-name label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.billing-info .user-inforamtion .company-name input {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.billing-info .user-inforamtion .country-name {
+    width: 100%;
+    display: block;
+}
+
+.billing-info .user-inforamtion .country-name label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.billing-info .user-inforamtion .country-name select {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.billing-info .user-inforamtion .country-name select option {
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: 500;
+    min-height: 10px;
+}
+
+.billing-info .user-inforamtion .street-address {
+    width: 100%;
+    display: block;
+}
+
+.billing-info .user-inforamtion .street-address label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.billing-info .user-inforamtion .street-address input {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.billing-info .user-inforamtion .town-city {
+    width: 100%;
+    display: block;
+}
+
+.billing-info .user-inforamtion .town-city label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.billing-info .user-inforamtion .town-city input {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.billing-info .user-inforamtion .state {
+    width: 100%;
+    display: block;
+}
+
+.billing-info .user-inforamtion .state label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.billing-info .user-inforamtion .state select {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.billing-info .user-inforamtion .zip-code {
+    width: 100%;
+    display: block;
+}
+
+.billing-info .user-inforamtion .zip-code label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.billing-info .user-inforamtion .zip-code input {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.user-inforamtion .contact-info {
+    width: 100%;
+    display: flex;
+}
+
+.billing-info .user-inforamtion .contact-info .colm-1 {
+    width: 50%;
+    display: block;
+}
+
+.user-inforamtion .contact-info .colm-1 label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user-inforamtion .contact-info .colm-1 input {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.billing-info .user-inforamtion .contact-info .colm-2 {
+    width: 50%;
+    display: block;
+}
+
+.user-inforamtion .contact-info .colm-2 label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user-inforamtion .contact-info .colm-2 input {
+    padding: 15px 0;
+    text-indent: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.billing-info .user-inforamtion .create-account {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+
+.billing-info .user-inforamtion .create-account input {
+    margin: 0;
+}
+
+.billing-info .user-inforamtion .create-account label {
+    margin: 0;
+    font-size: 13px;
+}
+
+.billing-info .user-inforamtion .ship-info {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.billing-info .user-inforamtion .ship-info input {
+    margin: 0;
+}
+
+.billing-info .user-inforamtion .ship-info label {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.billing-info .user-inforamtion .order-info {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+}
+
+.billing-info .user-inforamtion .order-info label {
+    margin: 0;
+    font-size: 14px;
+}
+
+.billing-info .user-inforamtion .order-info textarea {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    height: 10 0px;
+}
+
+.product-checkout-wrapper .col-2 .bill-info-wrapper {
+    display: block;
+    width: 100%;
+    width: 85%;
+    margin: auto;
+}
+
+.bill-info-wrapper .bil-heading {
+    width: 100%;
+    margin: 10px 0;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.bil-heading span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bill-info-wrapper .bil-details {
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+}
+
+.bill-info-wrapper .bil-details .bil-product-heading {
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-info-wrapper .bil-details .bil-product-heading span {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.bill-info-wrapper .order-detail {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.bill-info-wrapper .order-detail .name {
+    width: 50%;
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.bill-info-wrapper .order-detail .price {
+    width: 50%;
+    display: block;
+    text-align: right;
+    font-weight: 500;
+}
+
+.bil-details .sub-total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.bil-details .sub-total span {
+    font-size: 15px;
+}
+
+.bil-details .Shipping {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.bil-details .Shipping .name {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bil-details .total-bil {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bil-details .total-bil span {
+    font-size: 15px;
+}
+
+.bil-details .total-bil label {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.transfer-option {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+
+.transfer-option ul {
+    margin: 0;
+    padding: 0;
+}
+
+.transfer-option li input {
+    margin: 0 5px;
+    padding: 0;
+}
+
+.transfer-option li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+}
+
+.transfer-option li label {
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.transfer-option span {
+    font-size: 13px;
+    line-height: 2;
+    color: #a5a5a5;
+}
+
+.bil-details .info-box {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.bil-details .info-box a {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bil-details .terms-field {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+}
+
+.bil-details .terms-field label {
+    font-size: 14px;
+}
+
+.bil-details .terms-field label a {
+    margin: 0 5px;
+    color: red;
+}
+
+.bil-details .Shipping .rate {
+    display: block;
+}
+
+.Shipping .rate ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Shipping .rate li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.Shipping .rate label {
+    margin: 8px 5px;
+    font-size: 14px;
+}
+
+.bil-details .place-order {
+    width: 100%;
+    margin: 15px 0;
+    display: block;
+}
+
+.bil-details .place-order a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background: #ef262c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:992px) {
+    .product-checkout-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-checkout-wrapper .col-1 {
+        width: 90%;
+        margin: auto;
+    }
+    .product-checkout-wrapper .col-2 {
+        width: 90%;
+        margin: auto;
+    }
+    .product-checkout-wrapper .col-1 .billing-info {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .user-inforamtion .user-name {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .billing-info .user-inforamtion .user-name .colm-1 {
+        width: 100%;
+    }
+    .user-inforamtion .user-name .colm-1 input {
+        width: 100%;
+    }
+    .billing-info .user-inforamtion .user-name .colm-2 {
+        width: 100%;
+    }
+    .user-inforamtion .contact-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .billing-info .user-inforamtion .contact-info .colm-1 {
+        width: 100%;
+        display: block;
+    }
+    .user-inforamtion .contact-info .colm-1 input {
+        width: 100%;
+    }
+    .billing-info .user-inforamtion .contact-info .colm-2 {
+        width: 100%;
+    }
+    .user-inforamtion .contact-info .colm-2 input {
+        width: 100%;
+    }
+    .checkout-content .coupon-header {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .checkout-content .coupon-header .content {
+        font-size: 14px;
+        padding: 7px;
+        display: block;
+    }
+}

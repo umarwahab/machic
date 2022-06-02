@@ -1,0 +1,99 @@
+.discount-section {
+    display: block;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.discount-section .discount-banner {
+    width: 98%;
+    margin: auto;
+    padding: 20px 0;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    overflow: hidden;
+    border: 1px solid#ccc;
+}
+
+.discount-section .discount-content {
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.discount-section .discount-content .entry-text {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding: 0;
+    width: 50%;
+}
+
+.discount-section .discount-content .entry-text span {
+    display: block;
+    line-height: 2;
+    font-size: 13px;
+    opacity: 0.6;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.discount-section .discount-banner .entry-coupon {
+    width: 50%;
+    text-align: right;
+    display: block;
+}
+
+
+/* Discount Section */
+
+@media screen and (max-width:767px) {
+    /* .discount-content {
+        width: 100%;
+        margin: 5px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .discount-content .entry-text {
+        width: auto;
+        padding: 0;
+    }
+    .discount-banner .entry-coupon {
+        width: auto;
+    } */
+    .discount-section .discount-banner {
+        width: auto;
+        margin: auto;
+        padding: 20px 0;
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        overflow: hidden;
+        border: 1px solid#ccc;
+    }
+    .discount-section .discount-content {
+        width: 90%;
+        margin: 5px auto;
+        display: block;
+        color: #fff;
+    }
+    .discount-section .discount-content .entry-text {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .discount-section .discount-banner .entry-coupon {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+}
+
+
+/* End of Discout Section */

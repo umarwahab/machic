@@ -1,0 +1,164 @@
+.category {
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.category .category-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category .category-wrapper .category-banner {
+    position: relative;
+    width: 30%;
+    margin: 0
+}
+
+.category .category-wrapper .category-banner .category-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    z-index: 1;
+}
+
+.category-wrapper .category-banner .category-content .entry-title {
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    margin-left: 30px;
+}
+
+.category-wrapper .category-banner .category-content .main-title {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+    display: block;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.category .category-wrapper .category-banner .category-content .banner-price-content {
+    margin-top: 0;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.category .category-wrapper .category-banner .category-content .banner-price-content .sub-title {
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ababab;
+}
+
+.category .category-wrapper .category-banner .category-content .banner-price-content .price {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    color: #ef262c;
+    font-weight: 500;
+}
+
+.category .category-wrapper .category-banner .category-content .banner-price-content .price .cut-price {
+    margin: 0 10px;
+    text-decoration: line-through;
+    color: #9aa5b3;
+    font-size: 16px;
+}
+
+.category .category-wrapper .category-banner .category-image {
+    width: auto;
+    display: block;
+}
+
+.category .category-wrapper .category-banner .category-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:1024px) and (max-width:1260px) {
+    .category .category-wrapper .category-banner {
+        width: 30%;
+        position: relative;
+        margin: 0;
+    }
+    .category .category-wrapper .category-banner .category-content {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+        z-index: 1;
+    }
+    .category .category-wrapper .category-banner .category-content .banner-price-content {
+        margin-top: 10px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    /* .category .category-wrapper .category-banner {
+        width: auto;
+        position: relative;
+        margin: 0 10px;
+    } */
+    .category .category-wrapper .category-banner .category-content {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        z-index: 1;
+    }
+    .category .category-wrapper .category-banner .category-content .banner-price-content {
+        margin-top: 0;
+        padding-top: 15px;
+        margin-left: 30px;
+    }
+    .category .category-wrapper .category-banner .category-content .banner-price-content .price {
+        display: flex;
+        font-size: 16px;
+        align-items: center;
+        color: #ef262c;
+        font-weight: 500;
+    }
+    .category-wrapper .category-banner .category-content .main-title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .category .category-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .category .category-wrapper .category-banner {
+        width: 100%;
+        position: relative;
+        margin: 15px 0;
+        background: #f6f5f8;
+    }
+    .category .category-wrapper .category-banner .category-content {
+        padding: 30px 0;
+    }
+    .category .category-wrapper .category-banner .category-content .banner-price-content {
+        margin-top: 20px;
+        padding-top: 15px;
+    }
+    .category .category-wrapper .category-banner .category-image {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+
+/*End of category Banner CSS */

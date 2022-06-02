@@ -1,0 +1,55 @@
+.main-content{
+    box-sizing: border-box;
+}
+
+.main-banner {
+    width: 100%;
+   
+}
+.main-content .banner-container{
+max-width: 1290px;
+margin: auto;
+position: relative;
+}
+.main-content .banner-content {
+    position: absolute;
+    bottom: 160px;
+}
+.main-content .banner-content  .entry-subtitle {
+    text-transform: uppercase;
+    background: #ffbd27;
+    width: 25%;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+}
+.main-content .banner-content  .entry-title {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+.main-content .banner-content  .entry-title strong {
+    display: block;
+    font-size: 60px;
+}
+.main-content .banner-content  .entry-description {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1;
+}
+.main-content .banner-content  .entry-btn {
+    margin-top: 30px;
+    display: block;
+}
+.main-content .banner-content  .entry-btn a {
+    background: #0070dc;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 18px;
+    font-size: 14px;
+}

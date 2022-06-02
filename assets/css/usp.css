@@ -1,0 +1,82 @@
+.user-services {
+    box-sizing: border-box;
+    display: block;
+    margin: 50px 0;
+}
+
+.user-services .usp-container {
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-services .usp-box {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid #ccc; */
+}
+
+.usp-container .usp-box .usp-image {
+    width: 20%;
+    display: block;
+    margin: 0 10px;
+}
+
+.usp-container .usp-box .usp-content {
+    width: auto;
+    display: block;
+}
+
+.usp-container .usp-box .usp-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.usp-container .usp-box .usp-content .main-text {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.usp-container .usp-box .usp-content .sub-text {
+    color: #818ea0;
+    font-size: 13px;
+}
+
+@media screen and (max-width:767px) {
+    /* usp */
+    .user-services .usp-container {
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .user-services .usp-box {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        margin: 30px 15px;
+        justify-content: flex-start;
+    }
+    .usp-container .usp-box .usp-image {
+        width: 20%;
+        display: block;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .user-services .usp-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 30px 0;
+        justify-content: flex-start;
+    }
+}

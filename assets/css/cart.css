@@ -1,0 +1,406 @@
+.shopping-cart {
+    display: block;
+    box-sizing: border-box;
+}
+
+.shopping-cart .card-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.card-wrapper .col-1 {
+    width: 70%;
+    padding-left: 15px;
+}
+
+.card-wrapper .product-info-cart {
+    width: 100%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-header {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 3px;
+    display: flex;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-header .col-1 {
+    width: 15%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-header .col-2 {
+    width: 45%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-header .col-3 {
+    width: 10%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-header .col-4 {
+    width: 20%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-header .col-5 {
+    width: 10%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-header span {
+    font-size: 14px;
+    color: #a5a5a5;
+    font-weight: 600;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper {
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-1 {
+    width: 15%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-2 {
+    width: 45%;
+    display: flex;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-3 {
+    width: 10%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-4 {
+    width: 20%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-5 {
+    width: 10%;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-1 .product-image {
+    width: 100%;
+    display: block;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-1 img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-4 .product-quantity {
+    width: 60%;
+}
+
+.shopping-cart .product-info-cart .product-wrapper .colm-2 .product-name {
+    display: block;
+    width: 100%;
+    padding: 0 5px;
+    line-height: 1.5;
+}
+
+.product-wrapper .colm-4 .product-quantity .qty {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-wrapper .colm-4 .product-quantity .qty button {
+    width: 16px;
+    height: 30px;
+    color: #000;
+    font-size: 20px;
+    background: #fff;
+    padding: 0;
+    border-style: none;
+}
+
+.product-wrapper .colm-3 .product-price span {
+    color: #818ea0;
+}
+
+.product-wrapper .colm-4 .product-quantity .qty input {
+    width: 28px;
+    height: 26px;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.product-wrapper .colm-2 .product-name span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.colm-5 .total-price .close {
+    margin: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+.card-wrapper .product-info-cart .action-wrapper {
+    width: 100%;
+    display: flex;
+    margin: 20px 0 30px 0;
+    justify-content: space-between;
+}
+
+.product-info-cart .action-wrapper .action-coupon form {
+    display: block;
+}
+
+.action-wrapper .action-coupon input {
+    padding: 15px 0 15px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+    outline: none;
+}
+
+.action-wrapper .action-coupon input::placeholder {
+    color: #a5a5a5;
+}
+
+.action-coupon button {
+    padding: 12px 25px;
+    margin-left: 5px;
+    border-radius: 4px;
+    border: 0;
+    background: #041e42;
+    color: #fff;
+}
+
+.card-wrapper .product-info-cart .action-wrapper .action-coupon {
+    width: auto;
+    /* display: flex; */
+}
+
+.card-wrapper .product-info-cart .action-wrapper .action-btn {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-wrapper .product-info-cart .action-wrapper .action-btn button {
+    background: #fff;
+    border: 0;
+    color: #818ea0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.shopping-cart .card-wrapper .col-2 {
+    width: 30%;
+}
+
+.payment-info-cart {
+    width: 100%;
+    display: block;
+}
+
+.payment-info-cart .cart-content {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.payment-info-cart .cart-content .cart-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cart-content .bill-wrapper {
+    margin: 15px 0;
+}
+
+.cart-content .bill-wrapper .sub-prize {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+.shipping-cost .ship-info a {
+    display: block;
+    text-decoration: none;
+    color: #1778e2;
+    font-size: 14px;
+    line-height: 2;
+    text-align: end;
+}
+
+.cart-content .bill-wrapper .sub-prize .title {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.bill-wrapper .shipping-cost .ship-info span {
+    font-size: 14px;
+    line-height: 1.8;
+    display: block;
+    text-align: end;
+}
+
+.cart-content .bill-wrapper .shipping-cost {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.shipping-cost .ship-title {
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.shipping-cost .ship-info form label {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.cart-content .bill-wrapper .total-bill {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.cart-content .bill-wrapper .total-bill .title {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.cart-content .bill-wrapper .total-bill .bill-cost {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.checkout-btn {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.checkout-btn button {
+    padding: 15px 25px;
+    border-radius: 4px;
+    border: 0;
+    background: #041e42;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ship-info ul {
+    padding: 0;
+    margin: 0;
+}
+
+.ship-info li {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width:1023px) {
+    .shopping-cart .card-wrapper {
+        display: block;
+    }
+    .shopping-cart .card-wrapper .col-1 {
+        width: 100%;
+        padding-left: 0;
+    }
+    .shopping-cart .card-wrapper .product-info-cart {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .shopping-cart .card-wrapper .col-2 {
+        width: 100%;
+    }
+    .payment-info-cart .cart-content {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .product-wrapper .colm-2 .product-name span {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .shopping-cart .product-info-cart .product-wrapper .colm-2 .product-name span {
+        font-size: 14px;
+    }
+    .shopping-cart .card-wrapper .product-info-cart {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .payment-info-cart .cart-content {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .product-info-cart .action-wrapper .action-coupon button {
+        margin-top: 15px;
+    }
+    .product-header .col-3,
+    .product-header .col-5 {
+        display: none;
+    }
+    .product-wrapper .colm-3,
+    .product-wrapper .colm-5 {
+        display: none;
+    }
+    .shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-4 {
+        width: 40%;
+    }
+    .shopping-cart .card-wrapper .col-1 .product-info-cart .product-wrapper .colm-4 .product-quantity {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .card-wrapper .product-info-cart .action-wrapper {
+        display: block;
+    }
+    .card-wrapper .product-info-cart .action-wrapper .action-btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+    }
+    .card-wrapper .product-info-cart .action-wrapper .action-btn button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .action-wrapper .action-coupon input {
+        width: 100%;
+    }
+    .action-coupon button {
+        width: 100%;
+    }
+}

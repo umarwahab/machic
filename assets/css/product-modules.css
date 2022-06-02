@@ -1,0 +1,413 @@
+.module-section {
+    box-sizing: border-box;
+    display: block;
+}
+
+.module-section .product-module {
+    width: 100%;
+    display: block;
+}
+
+.module-section .module-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #efeaea;
+    padding: 0 0 20px 0;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.module-section .module-header .btn-link {
+    margin-left: auto;
+    text-decoration: none;
+    color: #0070dc;
+}
+
+.module-section .module-header .btn-link i.fa.fa-long-arrow-right {
+    margin: 0 5px;
+}
+
+.module-section .product-module .module-wrapper {
+    box-sizing: border-box;
+    display: block;
+}
+
+.module-section .product-module .module-header .entry-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.module-section .product-module .module-header .product-countdown {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.module-section .product-module .module-header .product-countdown img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.module-section .module-header .product-countdown span {
+    font-size: 12px;
+    color: #818ea0;
+    margin: 10px;
+}
+
+.module-section .product-module .module-wrapper .product-container {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+}
+
+.module-section .product-module .module-wrapper .product-container .product-wrapper {
+    display: flex;
+}
+
+.module-section .product-container .product-wrapper .product-column {
+    width: 25%;
+    display: block;
+    margin: 0 0 0 5px;
+    /* border: 1px solid #ccc; */
+    padding: 0;
+    position: relative;
+    z-index: 111111111;
+}
+
+.module-section .product-module .module-wrapper .product-wrapper .product-column .product-box .badge {
+    position: absolute;
+    background-color: #ef262c;
+    top: 5px;
+    left: 10px;
+    padding: 3px 15px;
+    border-radius: 18px;
+    border: 0;
+}
+
+.module-section .product-module .module-wrapper .product-wrapper .product-column .product-box .badge span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.module-section .product-module .module-wrapper .product-wrapper .product-column .product-box .heart {
+    position: absolute;
+    background-color: #fff;
+    top: 5px;
+    right: 5px;
+    padding: 6px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.module-section .product-module .module-wrapper .product-wrapper .product-column .product-box .top-product {
+    position: absolute;
+    background-color: #00a046;
+    top: 5px;
+    left: 10px;
+    padding: 3px 15px;
+    border-radius: 18px;
+    border: 0;
+}
+
+.module-section .product-module .module-wrapper .product-wrapper .product-column .product-box .top-product span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.module-section .product-container .product-wrapper .product-column .product-box {
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+
+.module-section .product-container .product-box .product-image {
+    width: 100%;
+    display: block;
+}
+
+.module-section .product-container .product-wrapper .product-box .product-info {
+    margin: 10px 0;
+    display: block;
+    position: relative;
+}
+
+.module-section .product-container .product-info .product-title {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}
+
+.module-section .product-info .product-title h3 {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #021523;
+}
+
+.module-section .product-box .product-info .product-rating {
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+.module-section .product-container .product-box .product-info .product-rating span.fa.fa-star {
+    color: #fec11e;
+    font-size: 14px;
+}
+
+.module-section .product-container .product-wrapper .product-info .product-price {
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.module-section .product-container .product-box .product-info .product-price span {
+    color: #ef262c;
+    font-size: 21px;
+}
+
+.module-section .product-container .product-info .product-price .cut-price {
+    color: #9aa5b3;
+    text-decoration: line-through;
+    margin: 0 7px;
+}
+
+.module-section .product-container .product-box .product-info .product-shipping {
+    color: #818ea0;
+    font-size: 12px;
+    display: block;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.module-section .product-module .module-wrapper .product-footer {
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 126px;
+    background: #fff;
+    z-index: 11111111111;
+}
+
+.module-section .product-module .module-wrapper .product-footer .hr {
+    width: auto;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+.module-section .product-module .module-wrapper .product-footer .product-footer-btn {
+    padding: 10px;
+    width: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.module-section .product-module .module-wrapper .product-footer-btn a {
+    background: #00a046;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+
+.module-section .product-module .module-wrapper .product-footer-details {
+    font-size: 0.75rem;
+    padding: 0.9375rem;
+    display: block;
+}
+
+.module-section .product-module .module-wrapper .product-footer-details ul {
+    margin: 0;
+    padding: 0 0 7px 18px;
+    text-align: left;
+}
+
+.module-section .product-module .module-wrapper .product-footer-details ul li {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0 0 5px 0;
+}
+
+
+/* effects on column */
+
+
+/* .product-column:hover , .product-footer:hover{
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgb(0 0 0 / 25%);
+    cursor: pointer;
+    display: block;
+} */
+
+
+/* how to show multiple hover in a single div */
+
+.module-section .product-module .module-wrapper div.product-column:hover {
+    /* transform: scale(1); */
+    transform: scaleY(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgb(0 0 0 / 25%);
+    cursor: pointer;
+}
+
+.module-section .product-module .module-wrapper div.product-column:hover .product-footer {
+    display: block;
+}
+
+
+/* .product-footer:hover{
+    display: block;
+} */
+
+
+/* Product- Modules Start */
+
+@media screen and (max-width:1100px) {
+    .module-section .product-module .module-wrapper .product-footer {
+        position: unset;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .module-section .product-module .module-wrapper div.product-column:hover {
+        /* transform: scale(1); */
+        transform: 0;
+        filter: 0;
+        opacity: unset;
+        box-shadow: none;
+        cursor: pointer;
+    }
+    .module-section .product-module .module-wrapper .product-footer {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .module-section .product-module .module-wrapper .product-container .product-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .module-section .product-container .product-wrapper .product-column {
+        width: 30%;
+        display: block;
+        margin: auto;
+        padding: 0;
+        position: relative;
+        z-index: 111111111;
+    }
+    .module-section .module-wrapper .product-footer {
+        display: block;
+        box-shadow: none;
+        position: unset;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .module-section .product-module .module-wrapper .product-container .product-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .module-section .product-container .product-wrapper .product-column {
+        width: 45%;
+        display: block;
+        margin: auto;
+        padding: 0;
+        position: relative;
+        z-index: 111111111;
+    }
+    /* product-module */
+    .module-section .module-header {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #efeaea;
+        padding: 0 0 20px 0;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .module-section .product-module .module-header .entry-title {
+        font-size: 25px;
+        font-weight: 600;
+        margin: 10px auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .module-section .product-module .module-header .product-countdown {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        flex-direction: column;
+    }
+    .module-header .product-countdown span {
+        font-size: 12px;
+        color: #818ea0;
+        margin: 10px 0;
+    }
+    .module-header .btn-link {
+        margin: 10px auto;
+        text-decoration: none;
+        color: #0070dc;
+    }
+    /* end of product-module */
+}
+
+@media screen and (max-width:550px) {
+    .module-section .product-container .product-wrapper .product-column {
+        width: 95%;
+        display: block;
+        margin: auto;
+        padding: 0;
+        position: relative;
+        z-index: 111111111;
+    }
+    .module-section .product-module .module-wrapper .product-wrapper .product-column .product-box .top-product {
+        position: absolute;
+        background-color: #00a046;
+        top: 20px;
+        left: 10px;
+        padding: 3px 10px;
+        border-radius: 18px;
+        border: 0;
+    }
+    .module-section .product-module .module-wrapper .product-wrapper .product-column .product-box .top-product span {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .module-section .product-container .product-wrapper .product-column .product-box {
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .module-section .product-module .module-wrapper .product-footer {
+        width: 100%;
+        display: block;
+    }
+    .module-section .product-box .product-image img {
+        max-width: 60%;
+        display: block;
+        height: auto;
+        margin: auto;
+    }
+}
+
+
+/*End of product- Modules Start */

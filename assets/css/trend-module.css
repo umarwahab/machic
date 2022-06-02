@@ -1,0 +1,170 @@
+.trending-section {
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.trending-section .product-image .image-wrapper {
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin: 10px 3px;
+    box-sizing: border-box;
+}
+.trending-section .trending-module {
+    width: 100%;
+    display: block;
+    margin: 30px 0;
+}
+.trending-section .trending-module .module-header {
+    display: flex;
+    margin: 10px auto;
+    border-bottom: 1px solid #e3e1e1;
+    padding: 15px 0;
+    width: 98%;
+}
+.trending-section .module-header .entry-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.trending-section .trending-module .module-header .btn-link {
+    margin-left: auto;
+    text-decoration: none;
+    color: #0070dc;
+}
+
+.trending-section .trending-module .module-wrapper {
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+}
+.trending-section .module-wrapper .product-grid {
+    width: 100%;
+}
+
+.trending-section .module-wrapper .product-grid .product-box {
+    /* display: flex; */
+    text-align: center;
+    width: 33%;
+    /* border: 1px solid #ccc; */
+    padding: 10px 0;
+    border-radius: 15px 15px 0 0;
+
+}
+.trending-section .module-wrapper  .product-box .product-image {
+    width: 50%;
+    display: block;
+    float: left;
+}
+.trending-section .module-wrapper .product-grid .product-box .product-info {
+    margin: 10px 0;
+    display: block;
+    width: auto;
+}
+.trending-section .module-wrapper .product-grid .product-box .product-image img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 15px 0;
+}
+
+.trending-section .product-details ul {
+    margin: 0;
+    padding: 0 20px;
+}
+.trending-section .product-box .product-info .product-details li {
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.8;
+    color: #93949f;
+}
+.trending-section .product-grid .product-box .product-info .product-title {
+    width: 100%;
+    margin: 10px 0;
+    display: block;
+    text-align: left;
+}
+.trending-section .product-grid .product-info .product-price {
+    margin: 10px 0;
+    display: block;
+    text-align: left;
+}
+.trending-section .product-info .product-price label {
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}   
+.trending-section .product-grid .product-box .product-info .product-price span {
+    color: #9aa5b3;
+    font-size: 16px;
+}
+.trending-section .product-grid .product-box .product-info .product-shipping {
+    color: #818ea0;
+    font-size: 12px;
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+}
+.trending-section .product-box .product-info .product-rating {
+    display: block;
+    width: auto;
+    margin: 10px 20px;
+    text-align: left;
+}
+.trending-section .module-wrapper .product-footer {
+    width: 100%;
+    display: none;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    position: absolute;
+    background: #fff;
+}
+.trending-section .module-wrapper .product-footer .hr {
+    width: auto;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+.trending-section .module-wrapper .product-footer .product-footer-btn {
+    padding: 15px 5px;
+    width: auto;
+    border-bottom: 0;
+}
+.trending-section .module-wrapper .product-footer-btn a {
+    background: #00a046;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+/* .module-wrapper .product-grid .product-box:hover {
+    transform: scale(1);
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    
+} */
+.trending-section .module-wrapper .product-grid .product-box:hover {
+    transform: scaleY(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgb(0 0 0 / 25%);
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.trending-section .module-wrapper .product-grid .product-box:hover .product-footer{
+    display: block;
+}
+.trending-section .trending-module .module-wrapper .product-grid .product-row {
+    width: 100%;
+    display: flex;
+    margin: 20px 0 40px 0;
+}
+    /* .module-wrapper .product-grid .product-box:hover .product-footer{
+    display:block ;
+} */
+
